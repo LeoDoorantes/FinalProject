@@ -158,8 +158,21 @@ public class Main {
             switch (opcionPrincipal) {
                 case 1:
                     System.out.println("Desarrolladores:");
-                    System.out.println("1. Juan");
-                    System.out.println("2. María");
+                    System.out.println("""
+                                    Equipo 1
+                            Angel Manuel Mejia Perez
+                            José Eduardo Lara Prado
+                            Derik Salazar Lopez
+                            David Fernando Muñoz Muñoz
+                                    Equipo 2
+                            Leonardo Josue Dorantes Ordoñez
+                            José Carloz Jacal Juarez
+                            Antonio Garza Lozano 
+                                    Equipo 3
+                            Cristian Romero Luna
+                            Luis Fernando Garduño Quintana
+                            Luis Manuel Hurtado Almaraz
+                            """);
                     break;
                 case 2:
                     boolean regresarParciales = false;
