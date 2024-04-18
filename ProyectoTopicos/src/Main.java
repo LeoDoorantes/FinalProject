@@ -19,12 +19,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // hanoi
-        int discos = 4;
-        torreHanoi hanoi = new torreHanoi();
-        int movimientos = hanoi.torreshanoi(discos,1,2,3);
-        System.out.println("Total de movimientos realizados: " + movimientos);
-
 
         boolean salir = false;
 
@@ -152,7 +146,7 @@ public class Main {
                                             int num = scanner.nextInt();
                                             Equip3Ejer3 ejercicio3 = new Equip3Ejer3(num);
                                             ejercicio3.esPrimo(num);
-
+                                            break;
 
                                         case 12:
                                             System.out.println("Ingrese el numero de fila para el caballo  ");
@@ -162,7 +156,7 @@ public class Main {
                                             int columna = scanner.nextInt();
                                             Equip3Ejer4 ejercicio4 = new Equip3Ejer4(fila, columna);
                                             ejercicio4.movimientosCaballo(fila, columna);
-
+                                            break;
 
                                     }
 
@@ -170,15 +164,22 @@ public class Main {
                             case 2:
                                 System.out.println("Ejercicios del segundo parcial:");
                                 System.out.println("1. Ejercicio 1");
-                                System.out.println("2. Ejercicio 2");
-                                // Puedes incluir más ejercicios aquí
-                                //int ejercicio2 = scanner.nextInt();
+                                
+                                
+                                // hanoi
+                                System.out.println("Ingrese su moviemiento");
+                                
+                                int discos = scanner.nextInt();;
+                                torreHanoi hanoi = new torreHanoi();
+                                int movimientos = hanoi.torreshanoi(discos,1,2,3);
+                                System.out.println("Total de movimientos realizados: " + movimientos);
+
 
                                 break;
                             case 3:
                                 System.out.println("Ejercicio del tercer parcial:");
                                 System.out.println("1. Ejercicio 1");
-                                //int ejercicio3 = scanner.nextInt();
+                                 //int ejercicio3 = scanner.nextInt();
 
                                 break;
                             case 4:
