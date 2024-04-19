@@ -159,16 +159,16 @@ public class Main {
                 case 1:
                     System.out.println("Desarrolladores:");
                     System.out.println("""
-                                    Equipo 1
+                            Equipo 1
                             Angel Manuel Mejia Perez
                             José Eduardo Lara Prado
                             Derik Salazar Lopez
                             David Fernando Muñoz Muñoz
-                                    Equipo 2
+                            Equipo 2
                             Leonardo Josue Dorantes Ordoñez
                             José Carloz Jacal Juarez
-                            Antonio Garza Lozano 
-                                    Equipo 3
+                            Antonio Garza Lozano
+                            Equipo 3
                             Cristian Romero Luna
                             Luis Fernando Garduño Quintana
                             Luis Manuel Hurtado Almaraz
