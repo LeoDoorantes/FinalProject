@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import Integrantes.integrantes;
+
 import equipo1.Ejercicio1;
 import equipo1.Ejercicio2;
 import equipo1.Ejercicio3;
@@ -173,6 +173,21 @@ public class Main {
                     inte3.Integrantes3();
 
 
+                    System.out.println("""
+                            Equipo 1
+                            Angel Manuel Mejia Perez
+                            José Eduardo Lara Prado
+                            Derik Salazar Lopez
+                            David Fernando Muñoz Muñoz
+                            Equipo 2
+                            Leonardo Josue Dorantes Ordoñez
+                            José Carloz Jacal Juarez
+                            Antonio Garza Lozano
+                            Equipo 3
+                            Cristian Romero Luna
+                            Luis Fernando Garduño Quintana
+                            Luis Manuel Hurtado Almaraz
+                            """);
                     break;
                 case 2:
                     boolean regresarParciales = false;
@@ -189,7 +204,7 @@ public class Main {
                             case 1:
                                 System.out.println("Seleccione un ejercicio del primer parcial:");
                                 System.out.println("            Equipo 1");
-                                System.out.println("1. Ejercicio 1 ");
+                                System.out.println("1. Ejercicio 1");
                                 System.out.println("2. Ejercicio 2");
                                 System.out.println("3. Ejercicio 3");
                                 System.out.println("4. Ejercicio 4");
@@ -214,47 +229,30 @@ public class Main {
                                         System.out.println("Ingrese el ancho del rectángulo: ");
                                         int ancho = scanner.nextInt();
                                         Ejercicio1.dibujarRectangulo(alto, ancho);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes1();
                                         break;
 
                                     case 2:
                                         System.out.println("Ingrese un numero: ");
                                         int numeroPalindromo = scanner.nextInt();
                                         Ejercicio2.esPalindromo(numeroPalindromo);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes1();
                                         break;
                                     case 3:
                                         System.out.println("Ingrese un numero para ver si es primo o compuesto: ");
                                         int numeroPrimoCompuesto = scanner.nextInt();
                                         Ejercicio3.esPrimoOCompuesto(numeroPrimoCompuesto);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes1();
                                         break;
 
                                     case 4:
                                         System.out.println("Ingrese un número para calcular su factorial: ");
                                         int numeroFactorial = scanner.nextInt();
                                         Ejercicio4.factorial(numeroFactorial);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes1();
                                         break;
-
-                                        // equipo 2
 
                                     case 5:
                                         System.out.println("Ingrese un número para la altura del triangulo:  ");
                                         int altura = scanner.nextInt();
                                         Equip2Ejer1 ejer1 = new Equip2Ejer1(altura);
                                         ejer1.Triangulo(altura);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes2();
                                         break;
                                     case 6:
                                         System.out.println(
@@ -262,9 +260,6 @@ public class Main {
                                         String palabra = scanner.next();
                                         Equip2Ejer2 ejer2 = new Equip2Ejer2(palabra);
                                         ejer2.palindromo(palabra);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes2();
                                         break;
 
                                     case 7:
@@ -273,9 +268,6 @@ public class Main {
                                         int numero = scanner.nextInt();
                                         Equip2Ejer3 ejer3 = new Equip2Ejer3(numero);
                                         ejer3.NumerosPrimos(numero);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes2();
                                         break;
 
                                     case 8:
@@ -285,12 +277,7 @@ public class Main {
                                         int puntaje = scanner.nextInt();
                                         Equip2Ejer4 ejer4 = new Equip2Ejer4(puntaje);
                                         ejer4.contarCombinaciones(puntaje);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes2();
                                         break;
-
-                                        // equipo 3
 
                                     case 9:
                                         // equipo 3 ejercicio 1
@@ -298,9 +285,6 @@ public class Main {
                                         int valor = scanner.nextInt();
                                         Equip3Ejer1 ejercicio1 = new Equip3Ejer1(valor);
                                         ejercicio1.Hexagono(valor);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes3();
                                         break;
 
                                     case 10:
@@ -309,9 +293,6 @@ public class Main {
                                         String OracionPalindromo = scanner.nextLine();
                                         Equip3Ejer2 ejercicio2 = new Equip3Ejer2(OracionPalindromo);
                                         ejercicio2.IfPalindromo(OracionPalindromo);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes3();
                                         break;
 
                                     case 11:
@@ -320,9 +301,6 @@ public class Main {
                                         int num = scanner.nextInt();
                                         Equip3Ejer3 ejercicio3 = new Equip3Ejer3(num);
                                         ejercicio3.esPrimo(num);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes3();
                                         break;
 
                                     case 12:
@@ -333,49 +311,28 @@ public class Main {
                                         int columna = scanner.nextInt();
                                         Equip3Ejer4 ejercicio4 = new Equip3Ejer4(fila, columna);
                                         ejercicio4.movimientosCaballo(fila, columna);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes3();
                                         break;
 
                                 }
 
                                 break;
                             case 2:
-                                System.out.println("""
-                                        Ejercicios del segundo parcial:
-                                            digite su numero de ejercicio """);
-                                System.out.println("1. Ejercicio 1 - Torre de hanoi ");
+                                System.out.println("Ejercicios del segundo parcial:");
+                                System.out.println("1. Ejercicio 1");
 
+                                // hanoi
+                                System.out.println("Ingrese su moviemiento");
 
-                                int ejercicioParcial = scanner.nextInt();
-                                switch (ejercicioParcial){
-                                    case 1:
-                                    System.out.println("Ingrese su numero de discos: ");
-                                    int discos = scanner.nextInt();
-                                    ;
-                                    torreHanoi hanoi = new torreHanoi();
-                                    int movimientos = hanoi.torreshanoi(discos, 1, 2, 3);
-                                    System.out.println("Total de movimientos realizados: " + movimientos);
-
-                                        System.out.println("Desarrollado por: ");
-                                        integrantes.Integrantes1();
-                                        integrantes.Integrantes2();
-                                        integrantes.Integrantes3();
-                                    break;
-
-
-                                }
-                                    // hanoi
-
+                                int discos = scanner.nextInt();
+                                ;
+                                torreHanoi hanoi = new torreHanoi();
+                                int movimientos = hanoi.torreshanoi(discos, 1, 2, 3);
+                                System.out.println("Total de movimientos realizados: " + movimientos);
 
                                 break;
                             case 3:
-                                System.out.println("""
-                                        Ejercicio del tercer parcial:
-                                            Seleccione un numero
-                                        """);
-                                System.out.println("1. Ejercicio 1 - jaulas");
+                                System.out.println("Ejercicio del tercer parcial:");
+                                System.out.println("1. Ejercicio 1");
 
                                 Perro perro = new Perro("Perro", "Pelo corto");
                                 Gato gato = new Gato("Gato", "Pelo largo");
@@ -416,11 +373,6 @@ public class Main {
                                 jaulaReptiles.imprimirAnimales();
                                 System.out.println("\nAnimales en la jaula de aves:");
                                 jaulaTipo2Aves.imprimirAnimales();
-
-                                System.out.println("Desarrollado por: ");
-                                integrantes.Integrantes1();
-                                integrantes.Integrantes2();
-                                integrantes.Integrantes3();
                                 break;
                             case 4:
                                 regresarParciales = true;
